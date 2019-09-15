@@ -17,10 +17,6 @@ import pandas as pd
 import requests
 import click
 
-import matplotlib
-matplotlib.use('Agg')
-import matplotlib.pyplot as plt
-
 from tik_data import *
 
 if sys.version_info > (3, 0):
